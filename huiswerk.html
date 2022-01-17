@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta>
+<style type="text/css">
+[class*="col-"]
+{float: left;
+padding: 20px;}
+.col-2 {width: 16.66%;}
+.col-9 {width: 75%;}
+}
+body{
+background-color: lightblue;
+}
+header{
+font-family: 'Neonderthaw', cursive;
+font-size: 60px;
+text-align: center;
+color: red;
+}
+#div1{
+height: 220px;
+background-color: red;
+background-image: url('hoofdbalk.jpg');
+background-repeat: repeat-x;
+background-position: center;
+background-size: 20%;
+margin: 0px;}
+
+ul a{
+color: skyblue;
+text-decoration: none;
+}
+li{
+display:flex;
+height: 55px;
+border-right-style: double;
+border-right-width: thick;
+border-color: black;
+font-family: 'Neonderthaw', cursive;
+font-size: 18px;
+}
+li:hover{
+background-color: red;
+}
+#kolomL{
+height: 300px;
+background-color: olive;
+padding: 10px;
+}
+#kolomR{
+height: 300px;
+background-color: olive;
+padding: 20px;
+}
+.artikel{
+min-height: 300px;
+width: 45%;
+display: inline-block;
+background-color: red;
+border-radius: 40px;
+padding-left:40px;
+}
+img{
+float: right;
+border-radius: 40px;
+filter: grayscale();
+margin: 0px 15px 0px 15px;
+padding: 5px;
+border: 5px;
+border-color: black;
+width: 150px;
+height: 150px;
+}
+p{
+font-family:'Roboto', sans-serif;
+font-size: 12px;
+padding-top: 20px;
+padding-left: 20px;
+}
+footer{
+height: 50px;
+background-image: url('hoofdbalk.jpg');
+background-repeat: repeat-x;
+background-position: left;
+background-size: 8%;
+filter: opacity(0.4);
+margin: 10px;
+clear: left;
+}
+
+</style>
+</head>
+<body>
+<div id="div1">
+<header>Leuven
+</header>
+</div>
+
+<div class="row">
+<div class="col-2">
+<section id="kolomL">
+<ul>
+<li><a href="#">Oude markt</a>
+</li>
+<li><a href="#">Grote markt</a>
+</li>
+<li><a href="#">Begijnhof</a>
+</li>
+<li><a href="#">St Pieterskerk</a>
+</li>
+<li><a href="#">Kruidtuin</a>
+</li>
+</ul>
+</div>
+</sektion>
+<div class="row">
+<div class="col-9">
+<section id="kolomR">
+<div class="artikel">
+<p>
+<img
+src="afbeeldingen/oude markt.jpg"
+alt="atractie">
+Lorem ipsum dolor sit amet,
+consectetur adipisicing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua.
+Ut enim ad minim veniam,
+quis nostrud exercitation ullamco
+laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in
+reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur.
+Excepteur sint occaecat cupidatat non proident,
+sunt in culpa qui officia deserunt mollit anim
+id est laborum.
+</p>
+</div>
+<div class="artikel">
+<p>
+<img
+src="afbeeldingen/grote markt.jpg"
+alt="atractie">
+Lorem ipsum dolor sit amet,
+consectetur adipisicing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua.
+Ut enim ad minim veniam,
+quis nostrud exercitation ullamco
+laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in
+reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur.
+Excepteur sint occaecat cupidatat non proident,
+sunt in culpa qui officia deserunt mollit anim
+id est laborum.
+</p>
+</div>
+</section>
+</div>
+<footer></footer>
+</body>
+</html>
